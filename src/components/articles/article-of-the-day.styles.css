@@ -1,0 +1,5 @@
+.article-of-the-day-image {
+    background-image: url('../../assets/article-of-the-day.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
