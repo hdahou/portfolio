@@ -9,8 +9,6 @@ import './navigation.styles.css';
 
 const Navigation = () => {
 
-    //optimise this component. Shouldn'tbe repeating jsx. Make the nav component dynamic and map over it? 
-
     const [routeSelected, setRouteSelected] = useState('profile');
 
     const updateSelectedRoute = (event) => {
@@ -44,14 +42,14 @@ const Navigation = () => {
                         {routeSelected === 'contact' && <div className="triangle"></div>}
                     </div>
                     <div className="flex justify-between pt-12">
-                        <Link onClick={updateSelectedRoute} name='cv' className={routeSelected === 'cv' ? "pb-1 text-white font-medium" : "pb-1 hover:text-white"} to='/cv'>CV</Link>
+                        <Link onClick={updateSelectedRoute} name='cv' className={routeSelected === 'cv' ? "text-white font-medium" : "hover:text-white"} to='/cv'>CV</Link>
                         {routeSelected === 'cv' && <div className="triangle"></div>}
                     </div>
                     <div className="flex justify-between py-1">
                         <Link onClick={updateSelectedRoute} name='blog' className={routeSelected === 'blog' ? "text-white font-medium" : "hover:text-white"} to='/blog'>BLOG</Link>
                         {routeSelected === 'blog' && <div className="triangle"></div>}
                     </div>
-                    <p onClick={updateSelectedRoute} className="pt-12">GET IN TOUCH</p>
+                    <p className="pt-12">GET IN TOUCH</p>
                 </div>
                 <div className="flex pt-3">
                     <a target="_blank" rel="noreferrer" href="https://github.com/hdahou"><img className="pr-6 cursor-pointer opacity-40 hover:opacity-90" src={githubLogo} alt="github-logo"></img></a>
