@@ -9,8 +9,8 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="flex bg-slate-100">
-      <div className="background-image">
+    <div className="md:flex md:bg-slate-100">
+      <div className="background-image md:p-0">
         <Navigation />
       </div>
       <div className="w-screen max-w-screen-md min-h-[800px]">
