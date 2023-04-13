@@ -13,8 +13,8 @@ const Blog = () => {
         const articleArray = [];
         // eslint-disable-next-line
         articles.filter((article) => {
-            if ((article.title.toLocaleLowerCase().includes(event.target.value)
-                || article.description.toLocaleLowerCase().includes(event.target.value)) && event.target.value !== '') {
+            if ((article.title.toLocaleLowerCase().includes(event.target.value.toLocaleLowerCase())
+                || article.description.toLocaleLowerCase().includes(event.target.value.toLocaleLowerCase())) && event.target.value !== '') {
                 articleArray.push(article);
             }
         })
