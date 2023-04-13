@@ -19,7 +19,7 @@ const Navigation = () => {
     };
 
     return (
-        <div className="pb-9 bg-sky-900 bg-opacity-75 md:w-80 md:h-screen flex justify-center md:min-h-full">
+        <div className="mobile-screen-height pb-9 bg-sky-900 bg-opacity-75 md:w-80 md:h-screen flex justify-center md:min-h-full">
             <div className="flex justify-center md:w-4/5">
                 <div className="md:flex-col">
                     <div className="flex-col md:flex-col pt-9">

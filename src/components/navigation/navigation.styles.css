@@ -13,3 +13,9 @@
     border-bottom: 10px solid transparent;
     border-right: 10px solid white;
 }
+
+@media screen and (width < 400px) {
+    .mobile-screen-height {
+        height: 100vh
+    }
+}

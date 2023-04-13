@@ -24,7 +24,7 @@ const ArticleSearchResults = ({ filteredData }) => {
 
     return (
         <div className="flex flex-col">
-            <div className="grid grid-cols-2">{articlesList}</div>
+            <div className="sm:grid sm:grid-cols-2">{articlesList}</div>
             {filteredData.length > 4 && articleCount < 8 && <button onClick={loadMoreArticles} className="border border-slate-200 py-1 px-2 rounded-md bg-slate-800 text-xs text-white mx-2 w-fit">Show more results</button>}
         </div>
     )

@@ -21,7 +21,7 @@ export const articles = [
         image: bstree,
         alt: "bstree image",
         topic: "Data Structures",
-        description: "Tree structures appear over and over again in computer science and FAANG companies require knowledge of tree data structures & algorithms to crack their interviews.",
+        description: "Tree structures appear frequently in computer science and FAANG companies require knowledge of tree data structures & algorithms to crack their interviews.",
         date: 'April 28, 2022',
         time: 8,
         id: 2,

@@ -32,9 +32,9 @@ const ArticleTopicResults = () => {
     return (
         <div className="center pb-2">
             <div className="w-full pt-4"></div>
-            <h1 className="pb-2 text-2xl font-semibold text-slate-800">Topic Match for You</h1>
-            <div className="flex text-sm pt-2 pb-2 flex-wrap">{topicButtons}</div>
-            <div className="grid grid-cols-2">{filteredArticles}</div>
+            <h1 className="pb-2 text-xl md:text-2xl font-semibold text-slate-800">Topic Match for You</h1>
+            <div className="flex card-font md:text-sm pt-2 pb-2 flex-wrap">{topicButtons}</div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">{filteredArticles}</div>
             <div className="pt-4 w-full"></div>
         </div>
     )

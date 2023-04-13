@@ -24,7 +24,7 @@ const PortfolioCard = () => {
                     <h1 className="text-5xl font-semibold text-white p-2">{title}</h1>
                 </div>
                 <div className="h-full pt-5 pl-1">
-                    <a href={github}><img className="h-3/5 drop-shadow-2xl py-2" src={image1} alt='1'></img></a>
+                    <a href={github}><img className="w-full h-auto md:h-3/5 drop-shadow-2xl py-2" src={image1} alt='1'></img></a>
                     <p className="pt-4 text-slate-700 font-light">{description}</p>
                     <div>
                         <h2 className="text-sm text-slate-800 pt-5">Technologies:</h2>
