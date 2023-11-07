@@ -20,7 +20,7 @@ const Profile = () => {
                 <div className="text-3xl pt-3 pb-3 text-sky-800">FRONT-END WEB DEVELOPMENT</div>
             </div>
             <div className="font-light pb-6">
-                <p className="py-2"><span className="font-medium">I specialise in developing applications using React/Next.js.</span> Recently, I've been focussing on shifting all my existing codebases across to Typescript and diving into to DSA to write more performant code.</p>
+                <p className="py-2"><span className="font-medium">I specialise in developing applications using React/Next.js.</span> Recently, I've been focussing on shifting all my existing codebases across to Typescript and diving into DSA to write more performant code.</p>
                 <p className="py-2">In my current role, I'm responsible for <span className="font-medium">UI development,</span> in which I have been taking a lead on re-designing (figma) and implementing a more modern UI on a greenfield project, the Data Analytics Framework. More information can be provided on this if required.</p>
                 <p className="py-2">I have a good sense of <span className="font-medium">design and UX,</span> which I incorporate into my work. I have extensive experience working with various JavaScript & CSS ecosystems and libraries, including <span className="font-medium">Next.js, React, Redux, TailwindCSS, Jest, Figma and others.</span></p>
             </div>
