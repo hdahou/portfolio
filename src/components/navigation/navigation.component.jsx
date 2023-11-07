@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import profileImage from '../../assets/profile-image.jpg';
+import profileImage from '../../assets/profile-image.jfif';
 import githubLogo from '../../assets/github-logo.svg';
 import linkedInLogo from '../../assets/linkedin-logo.svg';
 import mailLogo from '../../assets/mail-logo.svg';
@@ -12,7 +12,6 @@ const Navigation = () => {
     const [routeSelected, setRouteSelected] = useState('profile');
 
     const updateSelectedRoute = (event) => {
-        console.log(event.target.name);
         if (event.target.name) {
             setRouteSelected(event.target.name)
         } else setRouteSelected('');
@@ -24,11 +23,11 @@ const Navigation = () => {
                 <div className="md:flex-col">
                     <div className="flex-col md:flex-col pt-9">
                         <Link onClick={updateSelectedRoute} name="profile" to='/' className="flex justify-center md:py-2.5 pb-3">
-                            <img className="w-60 h-auto rounded-full drop-shadow-2xl" name="profile" src={profileImage} alt="profile"></img>
+                            <img className="w-60 h-60 rounded-full drop-shadow-2xl object-cover" name="profile" src={profileImage} alt="profile"></img>
                         </Link>
                         <div className="tracking-tight">
                             <h1 className="text-center text-slate-100 font-semibold text-2xl leading-10">HAKEEM DAHOU</h1>
-                            <h2 className="text-center text-slate-100 text-base leading-10">FRONT-END SOFTWARE DEVELOPER</h2>
+                            <h2 className="text-center text-slate-100 text-base leading-10">SOFTWARE ENGINEER</h2>
                         </div>
                     </div>
                     <div className="flex flex-wrap justify-center md:flex-col pt-9 text-slate-300 font-light tracking-tighter">
